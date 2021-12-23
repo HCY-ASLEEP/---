@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/appbar_layout"/>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/drawer_layout_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+<!--            <fragment-->
+<!--                android:id="@+id/port_home_fragment"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:name="com.example.final_work.HomeFragment"/>-->
+
+<!--            <fragment-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:name="com.example.final_work.SearchFragment"/>-->
+
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="database"-->
+<!--                android:id="@+id/database"/>-->
+<!--            <fragment-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:name="com.example.final_work.WebViewFragment"/>-->
+
+<!--            <fragment-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:name="com.example.final_work.HorizonTabLayoutFragment"/>-->
+
+<!--            <fragment-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:name="com.example.final_work.RecycleViewFragment"/>-->
+
+
+<!--            <fragment-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:name="com.example.final_work.UploadFragment"/>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/drawer_left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <fragment
+                android:id="@+id/video_fragment"
+                android:name="com.example.final_work.NavFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>

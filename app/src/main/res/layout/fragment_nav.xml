@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NavFragment"
+    android:layout_marginRight="2dp"
+    android:layout_marginLeft="2dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical"
+            android:id="@+id/UUU">
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/face"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:id="@+id/nav_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/entry_textview_shape"
+                android:gravity="center_horizontal"
+                android:text="垃圾分类百科"
+                android:textColor="@color/dark_green"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/nav_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/entry_textview_shape"
+                android:gravity="center_horizontal"
+                android:text="搜索垃圾分类"
+                android:textColor="@color/dark_green"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nav_picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/entry_textview_shape"
+                android:gravity="center_horizontal"
+                android:text="图片识别"
+                android:textColor="@color/dark_green"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nav_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/entry_textview_shape"
+                android:gravity="center_horizontal"
+                android:text="分类详解"
+                android:textColor="@color/dark_green"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nav_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/entry_textview_shape"
+                android:gravity="center_horizontal"
+                android:text="垃圾分类资讯"
+                android:textColor="@color/dark_green"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nav_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/entry_textview_shape"
+                android:gravity="center_horizontal"
+                android:text="分类小视频"
+                android:textColor="@color/dark_green"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginLeft="5dp"-->
+    <!--        android:layout_marginRight="5dp"-->
+    <!--        android:layout_marginBottom="20dp">-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/play"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_marginLeft="5dp"-->
+    <!--            android:layout_marginRight="5dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="Play"-->
+    <!--            android:textSize="15dp"-->
+    <!--            android:textStyle="bold" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/replay"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="Replay"-->
+    <!--            android:textSize="15dp"-->
+    <!--            android:textStyle="bold" />-->
+
+
+    <!--        <Button-->
+    <!--            android:id="@+id/stop"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_marginLeft="5dp"-->
+    <!--            android:layout_marginRight="5dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="Stop"-->
+    <!--            android:textSize="15dp"-->
+    <!--            android:textStyle="bold" />-->
+    <!--    </LinearLayout>-->
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:visibility="visible">-->
+
+    <!--        <VideoView-->
+    <!--            android:id="@+id/video_view"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_gravity="center|center_horizontal"-->
+    <!--            android:background="@color/white"-->
+    <!--            android:visibility="visible" />-->
+    <!--    </LinearLayout>-->
+
+</LinearLayout>

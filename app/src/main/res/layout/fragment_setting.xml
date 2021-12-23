@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/entry_textview_shape"
+                android:text="用户协议"
+                android:id="@+id/user_deal"
+                android:textColor="@color/dark_green"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/entry_textview_shape"
+                android:text="隐私协议"
+                android:id="@+id/private_deal"
+                android:textColor="@color/dark_green"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/entry_textview_shape"
+                android:text="权限管理"
+                android:id="@+id/power"
+                android:textColor="@color/dark_green"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/entry_textview_shape"
+                android:text="使用帮助"
+                android:id="@+id/user_help"
+                android:textColor="@color/dark_green"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

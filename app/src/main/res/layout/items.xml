@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/entry_textview_shape"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/type_material"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="玻璃"
+        android:textColor="@color/dark_green"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true">
+
+
+        <TextView
+            android:id="@+id/type_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="不可回收"
+            android:textColor="@color/dark_green"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|right" />
+    </LinearLayout>
+
+</RelativeLayout>

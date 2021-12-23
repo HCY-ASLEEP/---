@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/dark_green"
+                android:textSize="45dp"
+                android:id="@+id/alert_material"
+                android:layout_gravity="center_horizontal"
+                android:text="HHHH"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/my_green"
+                android:textStyle="bold"
+                android:text="属于"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/alert_image"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/ic_launcher"/>
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:id="@+id/alert_class"
+                android:textStyle="bold"
+                android:clickable="false"
+                android:text="HHHHU"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_green"
+                android:text="投放要求"
+                android:textStyle="bold"
+                android:textSize="40dp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alert_quest"
+                android:textColor="@color/my_green"
+                android:text="IUIU"
+                android:textSize="25dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
